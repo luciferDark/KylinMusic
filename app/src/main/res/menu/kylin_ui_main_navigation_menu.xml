@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <group
+        android:id="@+id/ui_main_nav_group_1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/ui_main_skin"
+            android:icon="@mipmap/ic_launcher"
+            android:title="个性皮肤" />
+        <item
+            android:id="@+id/ui_main_vip"
+            android:icon="@mipmap/ic_launcher"
+            android:title="会员专区" />
+        <item
+            android:id="@+id/ui_main_store"
+            android:icon="@mipmap/ic_launcher"
+            android:title="麒麟商城" />
+    </group>
+    <group
+        android:id="@+id/ui_main_nav_group_2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/ui_main_time_off"
+            android:icon="@mipmap/ic_launcher"
+            android:title="定时关闭" />
+        <item
+            android:id="@+id/ui_main_wifi_switch"
+            android:icon="@mipmap/ic_launcher"
+            android:title="仅WIFI联网"
+            app:actionLayout="@layout/kylin_ui_main_nav_menu_wifi_switch" />
+        <item
+            android:id="@+id/ui_main_flow"
+            android:icon="@mipmap/ic_launcher"
+            android:title="流量提醒" />
+        <item
+            android:id="@+id/ui_main_music_preference"
+            android:icon="@mipmap/ic_launcher"
+            android:title="听歌偏好" />
+    </group>
+    <item
+        android:id="@+id/ui_main_message"
+        android:icon="@mipmap/ic_launcher"
+        android:title="消息中心" />
+</menu>

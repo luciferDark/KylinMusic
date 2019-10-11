@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="KylinLockView">
+        <attr name="klv_normal_color" format="color|reference"/>
+        <attr name="klv_fill_color" format="color|reference"/>
+        <attr name="klv_row" format="integer|reference"/>
+        <attr name="klv_col" format="integer|reference"/>
+        <attr name="klv_selected_color" format="color|reference"/>
+        <attr name="klv_error_color" format="color|reference"/>
+        <attr name="klv_line_width" format="dimension|reference"/>
+    </declare-styleable>
+
+</resources>
